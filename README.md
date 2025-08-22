@@ -27,16 +27,41 @@ A comprehensive browser automation solution combining **Playwright** with **Mode
 ## 🚀 Quick Start
 
 ### Prerequisites
-```bash
-# Python 3.8+
-python --version
 
-# Install dependencies
-pip install -r requirements.txt
+#### System Requirements
+- **Python 3.8+** (Python 3.10+ recommended)
+- **Node.js** (for Playwright browser installation)
+- **Git** (for cloning the repository)
 
-# Install Playwright browsers
-playwright install
-```
+#### Installation Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ksmuvva/PLAYWRIGHT_MCP-WITH-AGENT.git
+   cd PLAYWRIGHT_MCP-WITH-AGENT
+   ```
+
+2. **Create virtual environment** (recommended)
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install Python dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Install Playwright browsers**
+   ```bash
+   playwright install
+   ```
+
+5. **Set up environment variables**
+   ```bash
+   cp .env.example .env  # If .env.example exists
+   # Edit .env file with your API keys
+   ```
 
 ### Basic Usage
 
@@ -311,7 +336,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 🐛 **Issues**: [GitHub Issues](https://github.com/ksmuvva/PLAYWRIGHT_MCP-WITH-AGENT/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/ksmuvva/PLAYWRIGHT_MCP-WITH-AGENT/discussions)
-- 📧 **Email**: [Contact](mailto:your-email@example.com)
+- 📧 **Email**: For direct support, please create an issue on GitHub
 
 ---
 
